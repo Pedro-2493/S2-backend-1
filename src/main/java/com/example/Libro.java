@@ -7,14 +7,14 @@ public class Libro {
 
     public Libro() {
         this.titulo = "Desconocido";
-        this.autor = "Desconocido";
+        this.autor = "Anonimo";
         this.paginas = 0;
     }
 
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
-        this.paginas = 0;
+        this.paginas = paginas;
     }
 
     public Libro(String titulo, String autor, int paginas) {
@@ -25,6 +25,6 @@ public class Libro {
 
     public void mostrarDetalles() {
         System.out.println(
-                "Libro: " + " " + this.titulo +" "+ "Autor: " + " " + this.autor +" "+ "Páginas: " + " " + this.paginas);
+                "Libro: " +  this.titulo +"Autor: " +  this.autor + "Páginas: " + this.paginas);
     }
 }

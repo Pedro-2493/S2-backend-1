@@ -21,7 +21,7 @@ public class Main {
 
         CuentaBancaria cuenta = new CuentaBancaria("Maria",  500);
         cuenta.depositar(200);
-        System.err.println(cuenta.getSaldo());
+        System.out.println(cuenta.getSaldo());
         cuenta.retirar(1000);
         
     
@@ -30,7 +30,7 @@ public class Main {
      * Este es el ejemplo de prueba de la clase Estudiante.
      */
 
-    Estudiante e = new Estudiante("pedro", 21, 4.5);
+    Estudiante e = new Estudiante("pedro", 21, 2.5);
     e.mostrarInfo();
 
     Estudiante e2 = new Estudiante("Lucia", 23, 4.0);
